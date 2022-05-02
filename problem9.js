@@ -1,0 +1,10 @@
+let A=+prompt("Enter A:");
+let B=+prompt("Enter B:");
+let C=+prompt("Enter C:");
+let x1;
+let x2;
+x1=(-B+ Math.sqrt(B*B-4*A*C))/2*A;
+x2=(-B- Math.sqrt(B*B-4*A*C))/2*A;
+let X1=x1.toFixed(2);
+let X2=x2.toFixed(2);
+console.log(`Roots are X1=${X1} and X2=${X2}`);
